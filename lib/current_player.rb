@@ -9,5 +9,5 @@ def current_player(board)
 end
 
 def turn_count(board_state)
-  board_state.length
+  board_state.length + 1
 end
